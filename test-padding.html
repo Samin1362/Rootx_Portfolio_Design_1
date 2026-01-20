@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    :root {
+      --space-20: 5rem;
+      --space-24: 6rem;
+      --space-32: 8rem;
+      --space-6: 1.5rem;
+      --space-8: 2rem;
+      --space-12: 3rem;
+    }
+
+    .section-padding {
+      padding: var(--space-20) 0;
+      background: lightblue;
+    }
+
+    .container-custom {
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 var(--space-6);
+      background: lightgreen;
+    }
+
+    .test-box {
+      padding: 2rem;
+      margin: 1rem;
+      background: coral;
+    }
+  </style>
+</head>
+<body>
+  <section class="section-padding">
+    <div class="container-custom">
+      <h1>Test Padding</h1>
+      <div class="test-box">
+        This should have padding and margin
+      </div>
+    </div>
+  </section>
+</body>
+</html>

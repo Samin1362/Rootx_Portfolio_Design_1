@@ -1,0 +1,220 @@
+{
+  "personal": {
+    "name": "Aarav Sen",
+    "title": "Mathematics Student | Researcher | Problem Solver",
+    "tagline": "Exploring patterns, structures, and truths through mathematics.",
+    "profileImage": "https://img.freepik.com/free-photo/medium-shot-smiley-man-posing_23-2149915905.jpg?semt=ais_hybrid&w=740&q=80",
+    "cvUrl": "/assets/documents/aarav_sen_cv.pdf",
+    "location": "Dhaka, Bangladesh",
+    "email": "aarav.sen.math@gmail.com",
+    "shortBio": "I am a passionate mathematics student with strong interests in pure and applied mathematics, problem solving, and computational modeling.",
+    "longBio": "I am a final-year mathematics student deeply fascinated by the elegance of mathematical structures and their applications in real-world problems. My academic journey has focused on analysis, linear algebra, probability, and mathematical modeling. I enjoy transforming abstract theory into practical insight through research and computation. Beyond coursework, I actively participate in math competitions, academic seminars, and independent research projects.",
+    "philosophy": "Mathematics is not just calculation; it is the language of logical beauty.",
+    "quote": "Pure mathematics is, in its way, the poetry of logical ideas. — Albert Einstein"
+  },
+
+  "hero": {
+    "ctaPrimary": {
+      "label": "View Research",
+      "link": "#research"
+    },
+    "ctaSecondary": {
+      "label": "Download CV",
+      "link": "/assets/documents/aarav_sen_cv.pdf"
+    },
+    "backgroundSymbols": ["∑", "π", "∞", "∫", "√"]
+  },
+
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "University of Dhaka",
+      "location": "Dhaka, Bangladesh",
+      "degree": "B.Sc. in Mathematics",
+      "duration": "2022 – Present",
+      "gpa": "3.88 / 4.00",
+      "honors": ["Dean’s List (2023, 2024)", "Merit Scholarship"],
+      "coursework": [
+        "Real Analysis",
+        "Linear Algebra",
+        "Abstract Algebra",
+        "Probability Theory",
+        "Numerical Methods",
+        "Differential Equations"
+      ],
+      "logo": "/assets/images/university/dhaka.png"
+    }
+  ],
+
+  "research": [
+    {
+      "id": "res-1",
+      "title": "Spectral Properties of Linear Operators",
+      "area": ["Functional Analysis", "Linear Algebra"],
+      "abstract": "This research explores the spectral behavior of bounded linear operators on Hilbert spaces, focusing on eigenvalue distributions and compact perturbations.",
+      "supervisor": "Dr. Mahmud Rahman",
+      "coAuthors": [],
+      "year": 2025,
+      "status": "Working Paper",
+      "pdf": "/assets/documents/research/spectral_operators.pdf",
+      "tags": ["Operators", "Hilbert Spaces", "Eigenvalues"]
+    },
+    {
+      "id": "res-2",
+      "title": "Stochastic Modeling of Population Growth",
+      "area": ["Probability", "Mathematical Modeling"],
+      "abstract": "A stochastic differential equation approach to modeling uncertain population dynamics with real-world data fitting.",
+      "supervisor": "Dr. Farzana Islam",
+      "coAuthors": ["N. Hossain"],
+      "year": 2024,
+      "status": "Published",
+      "pdf": "/assets/documents/research/stochastic_population.pdf",
+      "tags": ["SDE", "Probability", "Modeling"]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Numerical Solver for PDEs",
+      "description": "A computational project implementing finite difference methods to solve partial differential equations.",
+      "mathConcepts": ["Partial Differential Equations", "Numerical Analysis"],
+      "technologies": ["Python", "NumPy", "Matplotlib"],
+      "github": "https://github.com/demo/numerical-pde-solver",
+      "demo": null,
+      "image": "/assets/images/projects/pde.png",
+      "featured": true
+    },
+    {
+      "id": "proj-2",
+      "title": "Graph Theory Visualizer",
+      "description": "An interactive tool to visualize graph traversal algorithms and properties.",
+      "mathConcepts": ["Graph Theory", "Discrete Mathematics"],
+      "technologies": ["JavaScript", "D3.js"],
+      "github": "https://github.com/demo/graph-visualizer",
+      "demo": "https://graph-visualizer-demo.netlify.app",
+      "image": "/assets/images/projects/graph.png",
+      "featured": false
+    }
+  ],
+
+  "skills": {
+    "mathematics": [
+      { "name": "Calculus", "level": 90 },
+      { "name": "Linear Algebra", "level": 92 },
+      { "name": "Probability & Statistics", "level": 85 },
+      { "name": "Abstract Algebra", "level": 80 },
+      { "name": "Numerical Analysis", "level": 78 }
+    ],
+    "programming": [
+      { "name": "Python", "level": 88 },
+      { "name": "MATLAB", "level": 75 },
+      { "name": "R", "level": 70 },
+      { "name": "LaTeX", "level": 95 }
+    ],
+    "tools": [
+      "Mathematica",
+      "Maple",
+      "Overleaf",
+      "Git",
+      "Jupyter Notebook"
+    ],
+    "softSkills": [
+      "Research",
+      "Problem Solving",
+      "Academic Writing",
+      "Teaching Assistance",
+      "Presentation"
+    ]
+  },
+
+  "publications": [
+    {
+      "id": "pub-1",
+      "title": "Stochastic Models in Population Dynamics",
+      "authors": ["Aarav Sen", "N. Hossain"],
+      "year": 2024,
+      "venue": "Journal of Applied Mathematics",
+      "type": "Journal",
+      "pdf": "/assets/documents/publications/population_dynamics.pdf",
+      "citation": "Sen, A., & Hossain, N. (2024). Stochastic Models in Population Dynamics. Journal of Applied Mathematics."
+    }
+  ],
+
+  "awards": [
+    {
+      "id": "award-1",
+      "title": "Merit Scholarship",
+      "issuer": "University of Dhaka",
+      "year": 2023,
+      "category": "Scholarship"
+    },
+    {
+      "id": "award-2",
+      "title": "Inter-University Mathematics Olympiad – Silver Medal",
+      "issuer": "Bangladesh Math Society",
+      "year": 2024,
+      "category": "Competition"
+    }
+  ],
+
+  "teaching": [
+    {
+      "id": "teach-1",
+      "role": "Teaching Assistant",
+      "institution": "University of Dhaka",
+      "duration": "2024 – Present",
+      "courses": ["Calculus I", "Linear Algebra I"],
+      "description": "Assisted professors with tutorials, grading, and student mentoring."
+    }
+  ],
+
+  "blog": [
+    {
+      "id": "blog-1",
+      "title": "Understanding Eigenvalues Intuitively",
+      "date": "2025-03-10",
+      "category": "Linear Algebra",
+      "readingTime": "6 min",
+      "excerpt": "An intuitive explanation of eigenvalues and why they matter.",
+      "slug": "understanding-eigenvalues"
+    }
+  ],
+
+  "contact": {
+    "email": "aarav.sen.math@gmail.com",
+    "availability": "Open to research collaborations and graduate opportunities",
+    "formEnabled": true
+  },
+
+  "socialLinks": {
+    "github": "https://github.com/demo",
+    "linkedin": "https://linkedin.com/in/demo",
+    "researchGate": "https://www.researchgate.net/profile/demo",
+    "googleScholar": "https://scholar.google.com/citations?user=demo",
+    "orcid": "https://orcid.org/0000-0000-0000-0000"
+  },
+
+  "seo": {
+    "title": "Aarav Sen | Mathematics Portfolio",
+    "description": "Academic portfolio of Aarav Sen, mathematics student specializing in analysis, probability, and mathematical modeling.",
+    "keywords": [
+      "Mathematics Student",
+      "Academic Portfolio",
+      "Mathematics Research",
+      "Pure Mathematics",
+      "Applied Mathematics"
+    ]
+  },
+
+  "theme": {
+    "name": "Elegant Logic",
+    "primaryColor": "#2563eb",
+    "secondaryColor": "#f59e0b",
+    "backgroundColor": "#ffffff",
+    "textColor": "#1a2332",
+    "fontHeader": "Inter",
+    "fontBody": "Source Sans Pro",
+    "fontMono": "JetBrains Mono"
+  }
+}
