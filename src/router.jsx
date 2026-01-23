@@ -5,7 +5,13 @@ import ErrorPage from "./pages/ErrorPage";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        index: true,
+        element: <Home />,
+      },
+    ],
   },
   {
     path: "*",
